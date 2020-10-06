@@ -44,11 +44,13 @@ MONGO_DB_QUERY =
 ```
 **Redis Variables:**
 ```.env
-REDIS_DB_HOST = 
+REDIS_DB_ADDRESS = 
+REDIS_DB_USERNAME =
+REDIS_DB_PASSWORD =
 ```
 **Server Variables:**
 ```.env
-SERVER_PORT = 
+PORT = 
 ACCESS_SECRET = 
 REFRESH_SECRET = 
 # Hour
