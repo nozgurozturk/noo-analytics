@@ -36,9 +36,10 @@ type RedisConfig struct {
 
 func Config() *Configurations {
 	// load .env file
+	env := os.Getenv("GO_ENV")
 	err := godotenv.Load(".env")
 
-	if err != nil {
+	if err != nil && env == "dev" {
 		log.Fatal("Error loading .env file")
 	}
 	// server config
