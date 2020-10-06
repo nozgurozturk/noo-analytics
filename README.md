@@ -1,6 +1,14 @@
-# noo-analytics
+<p align="center">
+  <a href="https://github.com/nozgurozturk/mercury-ui">
+    <img style="-webkit-user-select: none; display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); cursor: zoom-in;" src="https://user-images.githubusercontent.com/44316679/95265189-64122180-0839-11eb-9b76-e8fd61da087b.png" width=" 398" height="130">
+  </a>
 
-noo-analytics is a simple backend service for personal websites.
+  <h3 align="center">noo-analytics</h3>
+
+  <p align="center">
+    Simple backend service for personal websites
+  </p>
+</p>
 
 ## Install
 First of all, [download](https://golang.org/dl/) and install Go. `1.14` or higher is required.
