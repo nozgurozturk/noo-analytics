@@ -60,7 +60,7 @@ func Config() *Configurations {
 		AccessExpire:  atExpire,
 		RefreshSecret: os.Getenv("REFRESH_SECRET"),
 		RefreshExpire: rtExpire,
-		Port:          os.Getenv("SERVER_PORT"),
+		Port:          ":" + os.Getenv("PORT"),
 		Admin:         os.Getenv("ADMIN_MAIL"),
 	}
 	// mongo config
