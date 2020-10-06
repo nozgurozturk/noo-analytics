@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/nozgurozturk/mercury-ui">
+  <a href="https://github.com/nozgurozturk/noo-analytics">
     <img style="-webkit-user-select: none; display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); cursor: zoom-in;" src="https://user-images.githubusercontent.com/44316679/95265189-64122180-0839-11eb-9b76-e8fd61da087b.png" width=" 398" height="130">
   </a>
 
