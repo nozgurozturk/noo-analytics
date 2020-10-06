@@ -31,7 +31,10 @@ type MongoConfig struct {
 }
 
 type RedisConfig struct {
-	Host string
+	Address  string
+	UserName string
+	Password string
+	DB       int
 }
 
 func Config() *Configurations {
@@ -72,7 +75,10 @@ func Config() *Configurations {
 	// redis config
 
 	redisCnf := &RedisConfig{
-		Host: os.Getenv("REDIS_DB_HOST"),
+		Address: os.Getenv("REDIS_DB_ADDRESS"),
+		UserName: os.Getenv("REDIS_DB_USERNAME"),
+		Password: os.Getenv("REDIS_DB_PASSWORD"),
+		DB: 0,
 	}
 
 	return &Configurations{

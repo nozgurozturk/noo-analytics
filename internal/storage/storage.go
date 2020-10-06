@@ -38,9 +38,10 @@ func MongoConnect(cnf *config.MongoConfig) (*mongo.Database, error) {
 
 func RedisConnect(cnf *config.RedisConfig) (*redis.Client, error) {
 	client := redis.NewClient(&redis.Options{
-		Addr:     cnf.Host,
-		Password: "", // no password set
-		DB:       0,  // use default DB
+		Addr:     cnf.Address,
+		Username: cnf.UserName,
+		Password: cnf.Password,
+		DB:       cnf.DB,
 	})
 
 	_, err := client.Ping(context.Background()).Result()
