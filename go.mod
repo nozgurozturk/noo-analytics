@@ -1,6 +1,6 @@
 module github.com/nozgurozturk/noo-analytics
 
-go 1.13
+go 1.15
 
 require (
 	github.com/andybalholm/brotli v1.0.1 // indirect
