@@ -1,7 +1,7 @@
 module github.com/nozgurozturk/noo-analytics
 
 go 1.15
-
+// +heroku goVersion go1.15
 require (
 	github.com/andybalholm/brotli v1.0.1 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
